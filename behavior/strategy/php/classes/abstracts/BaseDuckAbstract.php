@@ -4,11 +4,14 @@ namespace DesignPatterns\behavior\strategy\php\abstracts;
 
 use DesignPatterns\behavior\strategy\php\interfaces\QuackableInterface;
 use DesignPatterns\behavior\strategy\php\interfaces\FlyableInterface;
+use DesignPatterns\behavior\strategy\php\interfaces\SwimingInterface;
+use DesignPatterns\behavior\strategy\php\interfaces\DisplayingInterface;
+use DesignPatterns\behavior\strategy\php\interfaces\UpgradableInterface;
 
 use DesignPatterns\behavior\strategy\php\strategies\SimpleFly;
 use DesignPatterns\behavior\strategy\php\strategies\SimpleQuack;
 
-abstract class BaseDuckAbstract implements QuackableInterface, FlyableInterface
+abstract class BaseDuckAbstract implements DisplayingInterface, QuackableInterface, FlyableInterface, SwimingInterface, UpgradableInterface
 {
 
     protected $FlyBehavior;
@@ -39,7 +42,7 @@ abstract class BaseDuckAbstract implements QuackableInterface, FlyableInterface
     {
         $this->QuackBehavior = $quackStrategy;
     }
-    
+
     public function setFlyStrategy(FlyableInterface $flyStrategy)
     {
         $this->FlyBehavior = $flyStrategy;

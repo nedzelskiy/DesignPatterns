@@ -15,7 +15,7 @@ class UpgradableDuck extends BaseDuckAbstract
         $this->QuackBehavior = new NoQuack();
         $this->FlyBehavior = new NoFly();
     }
-    
+
     public function display()
     {
         echo 'I am an UpgradableDuck!' . "\r\n";
