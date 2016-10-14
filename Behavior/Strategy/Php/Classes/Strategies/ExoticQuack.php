@@ -1,8 +1,8 @@
 <?php
 
-namespace DesignPatterns\behavior\strategy\php\strategies;
+namespace DesignPatterns\Behavior\Strategy\Php\Classes\Strategies;
 
-use DesignPatterns\behavior\strategy\php\interfaces\QuackableInterface;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Interfaces\QuackableInterface;
 
 class ExoticQuack implements QuackableInterface
 {

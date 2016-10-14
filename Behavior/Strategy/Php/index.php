@@ -1,13 +1,13 @@
 <?php
 
-require_once '../../../config/autoload.php';
+require_once '../../../vendor/autoload.php';
 
-use DesignPatterns\behavior\strategy\php\ducks\SimpleDuck;
-use DesignPatterns\behavior\strategy\php\ducks\ExoticDuck;
-use DesignPatterns\behavior\strategy\php\ducks\RubberDuck;
-use DesignPatterns\behavior\strategy\php\ducks\UpgradableDuck;
-use DesignPatterns\behavior\strategy\php\strategies\SimpleFly;
-use DesignPatterns\behavior\strategy\php\strategies\SimpleQuack;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Ducks\SimpleDuck;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Ducks\ExoticDuck;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Ducks\RubberDuck;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Ducks\UpgradableDuck;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Strategies\SimpleFly;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Strategies\SimpleQuack;
 
 $upgradableDuck = new UpgradableDuck();
 

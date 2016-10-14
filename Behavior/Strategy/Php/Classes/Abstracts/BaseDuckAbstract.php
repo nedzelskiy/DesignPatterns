@@ -1,15 +1,15 @@
 <?php
 
-namespace DesignPatterns\behavior\strategy\php\abstracts;
+namespace DesignPatterns\Behavior\Strategy\Php\Classes\abstracts;
 
-use DesignPatterns\behavior\strategy\php\interfaces\QuackableInterface;
-use DesignPatterns\behavior\strategy\php\interfaces\FlyableInterface;
-use DesignPatterns\behavior\strategy\php\interfaces\SwimingInterface;
-use DesignPatterns\behavior\strategy\php\interfaces\DisplayingInterface;
-use DesignPatterns\behavior\strategy\php\interfaces\UpgradableInterface;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Interfaces\QuackableInterface;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Interfaces\FlyableInterface;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Interfaces\SwimingInterface;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Interfaces\DisplayingInterface;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Interfaces\UpgradableInterface;
 
-use DesignPatterns\behavior\strategy\php\strategies\SimpleFly;
-use DesignPatterns\behavior\strategy\php\strategies\SimpleQuack;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Strategies\SimpleFly;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Strategies\SimpleQuack;
 
 abstract class BaseDuckAbstract implements DisplayingInterface, QuackableInterface, FlyableInterface, SwimingInterface, UpgradableInterface
 {

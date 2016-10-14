@@ -1,12 +1,12 @@
 <?php
 
-namespace DesignPatterns\behavior\strategy\php\ducks;
+namespace DesignPatterns\Behavior\Strategy\Php\Classes\Ducks;
 
-use DesignPatterns\behavior\strategy\php\abstracts\BaseDuckAbstract;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Abstracts\BaseDuckAbstract;
 
 class SimpleDuck extends BaseDuckAbstract
 {
-    
+
     public function display()
     {
         echo 'I am a SimpleDuck!' . "\r\n";

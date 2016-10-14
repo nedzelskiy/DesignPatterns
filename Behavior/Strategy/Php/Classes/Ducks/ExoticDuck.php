@@ -1,13 +1,13 @@
 <?php
 
-namespace DesignPatterns\behavior\strategy\php\ducks;
+namespace DesignPatterns\Behavior\Strategy\Php\Classes\ducks;
 
-use DesignPatterns\behavior\strategy\php\abstracts\BaseDuckAbstract;
-use DesignPatterns\behavior\strategy\php\strategies\ExoticQuack;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Abstracts\BaseDuckAbstract;
+use DesignPatterns\Behavior\Strategy\Php\Classes\Strategies\ExoticQuack;
 
 class ExoticDuck extends BaseDuckAbstract
 {
-    
+
     public function __construct()
     {
         parent::__construct();

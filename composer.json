@@ -1,0 +1,15 @@
+{
+    "name": "nedzelskiy/design-patterns",
+    "authors": [
+        {
+            "name": "Pavel",
+            "email": "pavel.nedzelskiy@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "DesignPatterns\\": ""
+        }
+    }
+}

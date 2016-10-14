@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\behavior\strategy\php\interfaces;
+namespace DesignPatterns\Behavior\Strategy\Php\Classes\Interfaces;
 
 interface QuackableInterface
 {
