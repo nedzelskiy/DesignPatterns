@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Behavior\Strategy\Php\Classes\ducks;
+namespace DesignPatterns\Behavior\Strategy\Php\Classes\Ducks;
 
 use DesignPatterns\Behavior\Strategy\Php\Classes\Abstracts\BaseDuckAbstract;
 use DesignPatterns\Behavior\Strategy\Php\Classes\Strategies\ExoticQuack;

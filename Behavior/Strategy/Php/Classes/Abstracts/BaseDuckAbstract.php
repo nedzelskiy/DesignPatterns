@@ -1,6 +1,6 @@
 <?php
 
-namespace DesignPatterns\Behavior\Strategy\Php\Classes\abstracts;
+namespace DesignPatterns\Behavior\Strategy\Php\Classes\Abstracts;
 
 use DesignPatterns\Behavior\Strategy\Php\Classes\Interfaces\QuackableInterface;
 use DesignPatterns\Behavior\Strategy\Php\Classes\Interfaces\FlyableInterface;
